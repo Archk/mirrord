@@ -6,7 +6,7 @@ from urllib import urlretrieve, urlopen
 from xml.etree import ElementTree
 
 base_url = 'https://dl.google.com/android/repository/'
-out_dir = '/data/mirrors/android/repository'
+out_dir = '/usr/local/caddy/www/aria2/d/android/repository'
 
 def download(filename, last_modified):
    file = out_dir + filename
